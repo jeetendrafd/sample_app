@@ -8,6 +8,7 @@ gem 'rails', '3.2.22.2'
 gem 'mysql2', '0.3.11'
 group :development, :test do
      gem 'rspec-rails'
+     
     end
 
 # Gems used only for assets and not required
