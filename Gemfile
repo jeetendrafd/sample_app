@@ -10,6 +10,7 @@ gem 'mysql2', '0.3.11'
 group :development, :test do
      gem 'rspec-rails'
      gem 'capybara', '~> 2.2.0'
+     gem 'annotate'
 end
 
 # Gems used only for assets and not required
