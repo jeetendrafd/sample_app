@@ -10,7 +10,7 @@ root :to => 'pages#home'
 resources :users
 match '/signup', :to => 'users#new'
 match '/users', :to => 'users#index'
-match '/users', :to => 'users#index'
+match '/users', :to => 'users#create'
 match '/users/:id', :to => 'users#show'
 
   # The priority is based upon order of creation:
